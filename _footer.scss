@@ -1,0 +1,37 @@
+$ftclr: #125792;
+$mrgnsize:50px;
+
+.footer{
+	padding-left:$mrgnsize;
+	padding-right:$mrgnsize;
+	background-color:$ftclr;
+	height:500px;
+	display:flex;
+	&-list1,&-list2,&-list3{
+		width:200px;
+		&-hele{
+		padding-bottom:4px;
+		font-size:120%;
+		display:flex;
+		justify-content:flex-start;
+		}
+		&-ele{
+		display:flex;
+		padding-top:4px;
+		padding-bottom:4px;
+		justify-content:flex-start;
+		}
+	}
+
+	&-image{
+	padding-top:20px;
+	width:500px;
+	height:15%;
+	}
+
+}
+
+.common{
+	list-style-type:none;
+	color:white;
+}
